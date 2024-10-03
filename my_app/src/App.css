@@ -1,0 +1,110 @@
+#name{
+  position:relative;
+  left: 43%;
+  bottom: 5px;
+  justify-items: center;
+  border-radius: 24px;
+  background-color: rgba(149, 255, 0, 0.585);
+  width: 170px;
+  height: 30px;
+  color:#000000
+}
+#name:hover{
+  box-shadow: rgba(255, 0, 0, 0.208) 0px 2px 4px 0px, rgba(255, 0, 0, 0.303) 0px 2px 16px 0px;
+}
+#Footer{
+  text-align: center;
+  /* background-color: #5c9a1f; */
+  height: 65px;
+  position:relative;
+  top:237px;
+  border-radius:25px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.class1{
+  font-style: italic;
+  border-radius: 24px;
+  width:630px;
+  color: #ffb300df;
+  background-color:  #1c2537;
+}
+.class1:hover{
+  box-shadow: rgba(212, 255, 0, 0.315) 0px -50px 36px -28px inset;
+}
+
+.class2{
+  font-style: italic;
+  border-radius: 24px;
+  width:630px;
+  color: #ffb300df;
+  background-color:   #1c2537;
+}
+.class2:hover{
+  box-shadow: rgba(183, 255, 0, 0.295) 0px -50px 36px -28px inset;
+}
+
+#header{
+  background-color: #c7fd0621;
+  height: 30px;
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px;
+  border-radius:25px ;
+  position: sticky;
+  top: 5px;
+}
+#header:hover{
+  box-shadow: rgba(0, 0, 0, 0.867) 0px 5px 15px;
+}
+.box {
+  color:#67b31a;
+}
+
+
+.App {
+ 
+  text-align: center;
+  background-color: #0c1526;
+  color:#ffb300df;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #5c9a1f;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#re{
+  color:rgb(25, 204, 232)
+}

@@ -1,0 +1,131 @@
+.head{
+    position: sticky;
+    top:0px;
+    color: rgb(255, 255, 255);
+    
+    /* width: 1210px; */
+    background-image: linear-gradient(
+      45deg,
+      hsl(240deg 100% 20%) 0%,
+      hsl(298deg 100% 21%) 10%,
+      hsl(324deg 100% 32%) 21%,
+      hsl(336deg 100% 42%) 34%,
+      hsl(0deg 93% 61%) 49%,
+      hsl(24deg 100% 57%) 66%,
+      hsl(42deg 100% 50%) 84%,
+      hsl(55deg 100% 50%) 100%
+    );
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.head:hover{
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+}
+#more{
+    position:sticky;
+    top:0px;
+    border-radius: 20px 20px 0px 0px;
+    background-color:rgba(153, 244, 6, 0.739);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+#more:hover{
+    box-shadow: rgb(14, 14, 14) 0px 5px 15px;
+}
+.yes{
+    color:rgb(0, 0, 0);
+    font-weight: 610;
+    border-radius: 7px;
+    padding: 6px;
+}
+.yes:hover{
+    background-color: rgba(0, 0, 0, 0.849);
+    color:aliceblue;
+    box-shadow: rgba(19, 19, 19, 0.792) 0px 54px 55px, rgba(255, 247, 0, 0.78) 0px -12px 30px, rgba(49, 49, 21, 0.856) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#content{
+    background-color: rgb(255, 255, 255);
+    overflow: scroll;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1px;
+    border-radius: 15px;
+    /* border: solid rgb(255, 255, 255); */
+    height: 500px
+    
+}
+.not{
+    border-radius: 15px;
+    border: solid rgb(55, 33, 33);
+    padding: 100px;
+    margin: 10px;
+    width: 40px;
+    height: 150px;
+}
+.not:hover{
+    border:solid rgb(173, 173, 76);
+    box-shadow: rgba(9, 9, 9, 0.994) 0px 50px 100px -20px, rgb(39, 22, 22) 0px 30px 60px -30px, rgb(255, 251, 0) 0px -2px 6px 0px inset;
+}
+.one{
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/385/842/desktop-wallpaper-star-trek-discovery-star-trek-films.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.two{
+    background-image: url("https://a-static.besthdwallpaper.com/batman-watch-on-you-wallpaper-2160x1440-96336_40.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.three{
+    background-image: url("https://i.pinimg.com/474x/50/a6/f5/50a6f52947f83e9c46e974f7b2668049.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.four{
+    background-image: url("https://images.moviesanywhere.com/7fbdd5c310d10623af2d040a726c4447/850a4464-275c-458f-a26a-fa6fdd4ab18c.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.five{
+    background-image: url("https://wallpaperaccess.com/full/1923020.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.six{
+    background-image: url("https://i.pinimg.com/originals/bf/81/86/bf81861729962249b267be8e5a3d8c9f.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.seven{
+    background-image: url("https://rukminim2.flixcart.com/image/850/1000/kv5kfww0/wall-decoration/s/e/t/inception-leonardo-dicaprio-movie-posters-entertainment-movies-original-imag846zrgj6zmbu.jpeg?q=20&crop=false");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.eight{
+    background-image: url("https://preview.redd.it/new-poster-for-kalki-2898-ad-v0-9z3znne5oo4d1.jpeg?width=1080&crop=smart&auto=webp&s=1a28e50347dd44fcc3114e17bca71c4f6ed2024a");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nine{
+    background-image: url("https://stat4.bollywoodhungama.in/wp-content/uploads/2023/04/Pushpa-2-%E2%80%93-The-Rule.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
